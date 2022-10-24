@@ -1,6 +1,7 @@
 class Parser
 
   attr_reader:string_array
+
   def initialize(string_array)
     @string_array=string_array
   end
