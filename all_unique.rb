@@ -1,5 +1,4 @@
 class Solution
-class
 
   attr_reader:str
 
