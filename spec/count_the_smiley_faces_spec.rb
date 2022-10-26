@@ -2,12 +2,8 @@
 
 require_relative '../count_the_smiley_faces'
 
-RSpec.describe Counter do
-  let(:counter) do
-    Counter.new([':D', ':~)', ';~D', ':)', ':O'])
-  end
-
+RSpec.describe CountTheSmileyFaces do
   context 'given string array' do
-    it { expect(counter.call).to eq(4) }
+    it { expect(described_class.new([':D', ':~)', ';~D', ':)', ':O']).call).to eq(4) }
   end
 end
