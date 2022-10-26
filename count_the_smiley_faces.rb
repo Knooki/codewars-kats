@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Counter
+class CountTheSmileyFaces
   attr_reader :arr
 
   def initialize(arr)
