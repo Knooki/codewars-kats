@@ -1,13 +1,10 @@
+# frozen_string_literal: true
+
 require_relative '../exes_and_ohs'
-require_relative 'spec_helper.rb'
+require_relative 'spec_helper'
 
-RSpec.describe Solution do
-  let(:sol) do
-    Solution.new("xxOo")
+RSpec.describe ExesAndOhs do
+  context 'given string' do
+    it { expect(described_class.new('xXoo').call).to eq(true) }
   end
-
-  context "given string" do
-  it { expect(sol.call()).to eq(true)}
-  end
-
 end
