@@ -6,6 +6,7 @@ RSpec.describe CountTheSmileyFaces do
   context 'given string array' do
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     it { expect(described_class.new([':D', ':~)', ';~D', 'x)', ':O']).call).to eq(3) }
 =======
     it { expect(described_class.new([':D', ':~)', ';~D', ':)', ':O']).call).to eq(4) }
@@ -13,5 +14,8 @@ RSpec.describe CountTheSmileyFaces do
 =======
     it { expect(described_class.new([':D', ':~)', ';~D', 'x)', ':O']).call).to eq(3) }
 >>>>>>> naming fixed
+=======
+    it { expect(described_class.new([':D', ':~)', ';~D', ':)', ':O']).call).to eq(4) }
+>>>>>>> Done
   end
 end
