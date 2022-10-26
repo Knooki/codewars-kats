@@ -7,4 +7,7 @@ RSpec.describe ExesAndOhs do
   context 'given string' do
     it { expect(described_class.new('xXoo').call).to eq(true) }
   end
+  context 'given string with same case' do
+    it { expect(described_class.new('xxxooo ').call).to eq(true) }
+  end
 end
