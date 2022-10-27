@@ -1,5 +1,15 @@
 # frozen_string_literal: true
 
+#Best Solution
+# def rotate matrix, direction
+#   case direction
+#   when 'clockwise'
+#     matrix.transpose.map(&:reverse)
+#   when 'counter-clockwise'
+#     matrix.transpose.reverse
+#   end
+# end
+
 class RotateAnArrayMatrix
   attr_reader :matrix, :direction
 
