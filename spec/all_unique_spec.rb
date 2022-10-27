@@ -1,11 +1,10 @@
-require_relative '../all_unique.rb'
+# frozen_string_literal: true
 
-RSpec.describe Solution do
-  let(:solution) do
-    Solution.new("abcdef")
-  end
+require_relative '../all_unique'
+require_relative './spec_helper'
 
-  context "given string array" do
-  it { expect(solution.call()).to eq(true)}
+RSpec.describe AllUnique do
+  context 'when given string array' do
+    it { expect(described_class.new('abcdef').call).to eq(true) }
   end
 end

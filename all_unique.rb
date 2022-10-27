@@ -1,13 +1,14 @@
-class Solution
+# frozen_string_literal: true
 
-  attr_reader:str
+class AllUnique
+  attr_reader :given_str
 
-  def initialize(str)
-    @str = str
+  def initialize(given_str)
+    @given_str = given_str
   end
 
-  def call()
-    str.each_char{ |item| return false if str.count(item) > 1 }
+  def call
+    given_str.each_char { |item| return false if given_str.count(item) > 1 }
     true
   end
 end
