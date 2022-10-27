@@ -3,8 +3,8 @@
 class ConvertArrStrToArrNum
   attr_reader :string_array
 
-  def initialize(string_array)
-    @string_array = string_array
+  def initialize(_string_array)
+    @string_array = string_arraygit
   end
 
   def call
