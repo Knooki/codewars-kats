@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../exes_and_ohs'
+require_relative '../7kats/exes_and_ohs'
 require_relative 'spec_helper'
 
 RSpec.describe ExesAndOhs do

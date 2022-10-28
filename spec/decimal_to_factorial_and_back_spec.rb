@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../decimal_to_factorial_and_back'
+require_relative '../5kats/decimal_to_factorial_and_back'
 require_relative 'spec_helper'
 
 RSpec.describe DecimalToFactorialAd do

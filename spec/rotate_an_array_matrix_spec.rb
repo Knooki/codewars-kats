@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../rotate_an_array_matrix'
+require_relative '../5kats/rotate_an_array_matrix'
 require_relative 'spec_helper'
 
 RSpec.describe RotateAnArrayMatrix do

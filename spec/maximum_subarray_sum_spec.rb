@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../maximum_subarray_sum'
+require_relative '../6kats/maximum_subarray_sum'
 require_relative 'spec_helper'
 
 RSpec.describe MaximumSubarraySum do

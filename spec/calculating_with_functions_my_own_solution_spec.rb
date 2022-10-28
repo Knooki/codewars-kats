@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../calculating_with_functions_my_own_solution'
+require_relative '../5kats/calculating_with_functions_my_own_solution'
 require_relative 'spec_helper'
 
 RSpec.describe CalculatingWithFunctionsMyOwnSolution do

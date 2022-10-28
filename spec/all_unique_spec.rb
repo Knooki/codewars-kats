@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../all_unique'
+require_relative '../7kats/all_unique'
 require_relative './spec_helper'
 
 RSpec.describe AllUnique do

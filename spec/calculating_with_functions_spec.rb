@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../calculating_with_functions'
+require_relative '../5kats/calculating_with_functions'
 require_relative 'spec_helper'
 
 RSpec.describe 'calculating_with_functions.rb' do # Просто нет класса в данном файле

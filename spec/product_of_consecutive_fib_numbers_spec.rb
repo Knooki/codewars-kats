@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../product_of_consecutive_fib_numbers'
+require_relative '../5kats/product_of_consecutive_fib_numbers'
 require_relative 'spec_helper'
 
 RSpec.describe ProducOfConsecutiveFibNumbers do

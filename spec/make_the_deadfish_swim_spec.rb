@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../make_the_deadfish_swim'
+require_relative '../6kats/make_the_deadfish_swim'
 require_relative 'spec_helper'
 
 RSpec.describe MakeTheDeadfishSwim do

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../easy_balance_checking'
+require_relative '../6kats/easy_balance_checking'
 require_relative 'spec_helper'
 
 RSpec.describe EasyBalanceChecking do

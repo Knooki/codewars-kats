@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../plus_one_array'
+require_relative '../6kats/plus_one_array'
 require_relative 'spec_helper'
 
 RSpec.describe PlusOneArray do

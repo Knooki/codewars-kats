@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../ascii_fun_2_funny_dots'
+require_relative '../6kats/ascii_fun_2_funny_dots'
 require_relative 'spec_helper'
 
 RSpec.describe ASCIIFun2FunnyDots do
