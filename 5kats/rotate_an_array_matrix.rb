@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-#Best Solution
+# Best Solution
 # def rotate matrix, direction
 #   case direction
 #   when 'clockwise'
